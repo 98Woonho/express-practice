@@ -18,7 +18,7 @@ app.get('/abc/:num', (req, res) => {
     console.log(req) // req 객체의 정보
     console.log(req.params) // req 내부의 인자 정보 {num: '5'}
     console.log(req.params.num) // 5
-    res.send('abc World!')
+    res.send(req.params.num)
 })
 
 // &로 인자를 구분
@@ -27,8 +27,7 @@ app.get('/def/:num1&:num2', (req, res) => {
     console.log(req.params.num2)
     const num1 = req.params.num1
     const num2 = req.params.num2
-    result = num1 + num2
-    res.send('def World!')
+    res.send(`num1  : ${num1}<br>num2 : ${num2}`)
 })
 
 // http://localhost:3000/add/10&20
@@ -38,7 +37,7 @@ app.get('/add/:num1&:num2',(req,res)=>{
     const num1=req.params.num1
     const num2=req.params.num2
     const result=num1+num2
-    res.send(result);
+    res.send(`num1 + num2 : ${result}`);
 })
 
 // listen함수로 3000번 포트에서 청취한다.
