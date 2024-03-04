@@ -15,26 +15,26 @@ API에 요청을 보내고 결과를 확인하고 싶을 때, 브라우저에 �
 <br>
 
 ## POST로 person 정보 추가하기
-1. Body에 추가할 데이터 설정
+1. Body에 추가할 데이터 설정\
 ![POST1](https://github.com/98Woonho/express-practice/assets/145889732/090fb46f-5de4-47ce-b14b-7ed1d1c516a5)
 
-2. 결과 보기
+2. 결과 보기\
 ![POST2](https://github.com/98Woonho/express-practice/assets/145889732/feb2de99-a7a3-4832-89d5-14cfe95a4c24)
 
 <br>
 
 ## PUT으로 person 정보 수정하기
-1. Body에 수정할 데이터 설정
+1. Body에 수정할 데이터 설정\
 ![PUT1](https://github.com/98Woonho/express-practice/assets/145889732/a575e923-34ff-4e6c-8fc2-40551c3c9360)
 
-2. 결과 보기
+2. 결과 보기\
 ![PUT2](https://github.com/98Woonho/express-practice/assets/145889732/ca7c1bcd-89a9-4995-9aed-50a669a66922)
 
 <br>
 
 ## DELETE로 person 정보 삭제
-1. Body에 삭제할 데이터 설정
+1. Body에 삭제할 데이터 설정\
 ![DELETE1](https://github.com/98Woonho/express-practice/assets/145889732/86fd4002-1530-451f-a214-9b4e11cb3861)
 
-2. 결과 보기
+2. 결과 보기\
 ![DELETE2](https://github.com/98Woonho/express-practice/assets/145889732/04873458-2882-41dd-a41d-63a0c1d45224)
